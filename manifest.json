@@ -1,0 +1,12 @@
+{
+"manifest_version": 3,
+"name": "Random Quote",
+"version": "1.0",
+"description": "display a random quote when a new tab is created.",
+"chrome_url_overrides": {
+    "newtab": "index.html"
+},
+"icons":{
+    "1": "icon.svg"
+}
+}
